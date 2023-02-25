@@ -7,7 +7,7 @@ namespace InitialProject.Serializer
 {
     class Serializer<T> where T: ISerializable, new()
     {
-        private const char Delimiter = ',';
+        private const char Delimiter = '|';
 
         public void ToCSV(string fileName, List<T> objects)
         {

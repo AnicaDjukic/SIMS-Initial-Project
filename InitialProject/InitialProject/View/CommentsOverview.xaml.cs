@@ -54,12 +54,15 @@ namespace InitialProject.Forms
 
         private void Delete(object sender, RoutedEventArgs e)
         {
-            MessageBoxResult result = MessageBox.Show("Are you sure?", "Delete comment", 
-                MessageBoxButton.YesNo, MessageBoxImage.Question);
-            if (result == MessageBoxResult.Yes && SelectedComment != null)
+            if (SelectedComment != null)
             {
-                _repository.Delete(SelectedComment);
-                Comments.Remove(SelectedComment);
+                MessageBoxResult result = MessageBox.Show("Are you sure?", "Delete comment",
+                    MessageBoxButton.YesNo, MessageBoxImage.Question);
+                if (result == MessageBoxResult.Yes)
+                {
+                    _repository.Delete(SelectedComment);
+                    Comments.Remove(SelectedComment);
+                }
             }
         }
     }
