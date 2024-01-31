@@ -4,6 +4,5 @@
     {
         string[] ToCSV();
         void FromCSV(string[] values);
-
     }
 }

@@ -1,7 +1,6 @@
 ﻿using System.Collections.Generic;
 using System.IO;
 using System.Text;
-using System.Windows.Data;
 
 namespace InitialProject.Serializer
 {
@@ -20,7 +19,6 @@ namespace InitialProject.Serializer
             }
 
             File.WriteAllText(fileName, csv.ToString());
-
         }
 
         public List<T> FromCSV(string fileName)
