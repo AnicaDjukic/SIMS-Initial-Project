@@ -1,11 +1,11 @@
-﻿using InitialProject.Model;
-using InitialProject.Repository;
+﻿using BookingApp.Model;
+using BookingApp.Repository;
 using System;
 using System.ComponentModel;
 using System.Runtime.CompilerServices;
 using System.Windows;
 
-namespace InitialProject.Forms
+namespace BookingApp.View
 {
     /// <summary>
     /// Interaction logic for CommentForm.xaml

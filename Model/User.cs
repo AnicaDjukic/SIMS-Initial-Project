@@ -1,7 +1,7 @@
-﻿using InitialProject.Serializer;
+﻿using BookingApp.Serializer;
 using System;
 
-namespace InitialProject.Model
+namespace BookingApp.Model
 {
     public class User : ISerializable
     {

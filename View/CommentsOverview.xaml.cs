@@ -1,9 +1,9 @@
-﻿using InitialProject.Model;
-using InitialProject.Repository;
+﻿using BookingApp.Model;
+using BookingApp.Repository;
 using System.Collections.ObjectModel;
 using System.Windows;
 
-namespace InitialProject.Forms
+namespace BookingApp.View
 {
     /// <summary>
     /// Interaction logic for CommentsOverview.xaml

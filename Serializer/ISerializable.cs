@@ -1,4 +1,4 @@
-﻿namespace InitialProject.Serializer
+﻿namespace BookingApp.Serializer
 {
     public interface ISerializable
     {

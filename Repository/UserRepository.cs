@@ -1,9 +1,9 @@
-﻿using InitialProject.Model;
-using InitialProject.Serializer;
+﻿using BookingApp.Model;
+using BookingApp.Serializer;
 using System.Collections.Generic;
 using System.Linq;
 
-namespace InitialProject.Repository
+namespace BookingApp.Repository
 {
     public class UserRepository
     {

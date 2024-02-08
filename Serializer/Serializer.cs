@@ -2,7 +2,7 @@
 using System.IO;
 using System.Text;
 
-namespace InitialProject.Serializer
+namespace BookingApp.Serializer
 {
     class Serializer<T> where T: ISerializable, new()
     {
